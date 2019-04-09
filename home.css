@@ -1,0 +1,57 @@
+@media only screen and (max-width: 767px) {
+    @media only screen and (min-width: 400px){
+    div.lesson {
+        height: 300px;
+    }
+   div.image_lesson {
+      height: 80%;
+    }
+    div.content_lesson {
+      height: 20%;
+    }
+
+}
+}
+
+#top {
+    background-color: tan;
+    text-align:center;
+    font-size: 3.5vw;
+}
+
+#banner {
+    width: 100%; 
+    height: 40%;
+}
+
+#content {
+    background-color: #e6ffff;
+}
+
+
+.lesson {
+    margin-bottom: 20px;
+    border-radius :10px;
+    height: 15%;
+    background-color:#ffe7b3;
+   
+}
+/* .image_lesson {
+    
+    
+    
+    float: left;
+} */
+.image {
+    height:100%;
+    width:100%;
+}
+
+
+.content_lesson {
+    color: black;
+    height:100%;
+    padding-top: 1.4vw;
+   
+
+}
