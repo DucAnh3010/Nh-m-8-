@@ -1,0 +1,466 @@
+<head>
+        <link rel="stylesheet" href="mondai.css">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="mondai.js"></script>
+<style>
+
+@media only screen and (max-width: 1000px) {
+   .bar{
+       width: 100%;
+       float:none;
+      
+    }
+    #a{
+        width: 100%;
+    }
+    #b{
+            flex-direction: column;
+    }
+    img{
+            width: 80%;
+    }
+    .catalogue{
+            padding-top: 1px;
+            height: 8.5%;
+            padding-bottom: 1px;
+            border:none;
+    }
+}
+
+</style>
+</head>
+
+<body>
+        <div id = "b" style="display:flex;">
+<div id = "s1" class = "bar col-md-2"  >
+       
+        
+              <a data-toggle="tab" href="home.html"><div class = "catalogue">Trang chủ</div></a>
+               <a data-toggle="tab" href="#tu_vung01"><div class = "catalogue">Từ vựng</div></a>
+                <a data-toggle="tab" href="#ngu_phap01"><div class = "catalogue">Ngữ pháp</div></a>
+                <a data-toggle="tab" href="#mau_cau01"><div  class = "catalogue">Mẫu câu</div></a>
+               <a data-toggle="tab" href="#hoi_thoai"><div class = "catalogue">Hội thoại</div></a>
+                <a data-toggle="tab" href="#mondai01"><div class = "catalogue">Luyện tập</div></a>
+               
+                <a data-toggle="tab" href="#kanji"><div  class = "catalogue ">Kanji</div></a>
+     
+
+</div>
+<div id = "a" class="col-md-10" style = "padding-right: 0px; padding-left: 0px;">
+<div id = "s2" class = "list_bai" style="margin-top:0px;width:100%" >
+        <ul id = "so_bai" style = "margin: 0;padding: 0;">
+                
+               
+        </ul>
+</div>
+<div  id = "s3" class = "containerr"  style="width:100%;">
+        <div class = "content"  >
+               
+                
+        
+          
+        <div class = "main_content tab-content ">
+                        <div class="tab-pane in active " id = "tu_vung01" >
+                                        <table id="kotoba">
+                                        </table>
+                                                
+                           
+                            
+                                        
+                                        </div>
+                <div id = "ngu_phap01" class = "tab-pane ">
+                                <div  class="tab-pane tab-content fade in active">
+                                                
+                                                        <a class = "col-md-1" data-toggle="tab" href="#li_thuyet">lí thuyết </a>
+                                                       <a class = "col-md-1" data-toggle="tab" href="#bai_tap">bài tập</a>
+                                                
+                                          <div id = "li_thuyet" class="tab-pane in active">
+                                                        <div >
+                                                                        <button id = "nut1" class = "col-md-12 bt " ><h4><strong>1.Trợ từ は</strong></h4></button>
+                                                                        <div class = "nd" >
+<p id = "p1" style="white-space: pre">
+
+
+Nghĩa : N1 là N2
+Ví dụ:
+わたしは　がくせいです。
+Tôi là học sinh
+さとさんは　せんせいです
+Sato là giáo viên
+*Chú ý: [は]　đọc [わ]
+</p>
+                                                                        </div></div>
+                                    
+                                                                         <div style = "width: 100%;"><button class = " col-md-12 bt " ><h4><strong>2.N1　は　N2　じゃありません</strong></h4></button>
+                                                                        <div class="nd">
+<p id = "p2" style="white-space: pre;"> 
+
+Nghĩa : <strong>N1 không phải là N2</strong>
+<strong> Ví dụ:</strong>
+わたしは　せんせい　じゃありません。
+Tôi không phải là giáo viên
+ワンさんは　エンジニアじゃありません
+Wan không phải là kĩ sư     
+</p>
+                                    
+                                    
+                                                                        </div></div> 
+                                    
+                                                                        <div><button id = "nut2" class = " bt " ><div class = "de_bai"><h4><strong>3. N1　は　N2　ですか</strong></h4></div></button>
+<div class="nd">
+<p  id = "p3" style="white-space: pre;">
+Nghĩa : <strong>N1 có phải là N2 không?</strong>
+Cách trả lời :
+はい、 N2 です。
+いいえ、N2　じゃありません / ではありません。
+<strong>Ví dụ:</strong>
+あなた　は　さとさんですか。
+Bạn có phải là Miller không ?
+はい、わたし　です。
+Vâng, tôi là Miller
+あのひと　は　かいしゃいんですか。
+Người kia có phải là Nhân viên văn phòng không ?
+いいえ、かいしゃいん　じゃありません。
+Không, Không phải là nhân viên văn phòng
+</p>
+                                                                        </div></div>
+                                    
+                                                                        <div><button id = "nut3" class = " bt " ><div class = "de_bai"><h4><strong>4. N1　も　N2　です</strong></h4></div></button>
+                                                                        <div class="nd">
+<p id = "p4" style="white-space: pre;" >Nghĩa : <strong>N1 có phải là N2 không?</strong>
+Cách trả lời :
+はい、 N2 です。
+いいえ、N2　じゃありません / ではありません。
+<strong>Ví dụ:</strong>
+あなた　は　さとさんですか。
+Bạn có phải là Miller không ?
+はい、わたし　です。
+Vâng, tôi là Miller
+
+あのひと　は　かいしゃいんですか。
+Người kia có phải là Nhân viên văn phòng không ?
+いいえ、かいしゃいん　じゃありません。
+Không, Không phải là nhân viên văn phòng
+</p>                                                                       
+                                                                        </div></div>
+                                    
+                                                                        <div><button id = "nut4" class = " bt " ><div class = "de_bai"><h4><strong>5. N1 は　N2　の　N3 です</strong></h4></div></button>
+                                                                        <div class="nd">
+<p id = "p5" style="white-space: pre;" >Nghĩa :<strong>N1 là N2 của N3</strong>
+Danh từ 2 (N2) bổ nghĩa cho Danh từ 3 (N3). Chữ の có nghĩa là của.
+                                    
+<strong>Ví dụ :</strong>
+わたしは　Jellyfish Education　のしゃいんです。
+Tôi là nhân viên của Jellyfish Education
+ミラーさんは　ふじだいがく　の　かぐせいです。
+Mira là sinh viên của trường đại học Fuji
+<strong>*Chú ý:
++ Từ [さん], trong Tiếng Nhật, nó được dùng ngay sau họ của người nghe để thế hiện sự kính trọng khi gọi tên người đó. Từ [さん] không dùng đối với chính bản thân người nói.
++ Trong trường hợp đã biết tên người nghe thì không dùng [あなた] mà dùng tên + [さん] để gọi tên người đó.</strong></p>                                    
+                                                                        </div></div>
+                                          </div>
+                                          <div id = "bai_tap" class = "tab-pane">
+                                                        <div >
+                                                                        <button id = "nut5" class = "col-md-12 bt " >Bài tập 1</button>
+                                                                        <div class = "nd">
+                                                                        <img src = "image_ngu_phap/r1.1.png"><br>
+                                                                       
+                                                                        <ol class = "kc_audio_da">
+                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                
+                                                                        </ol>
+                                                                        </div></div>
+                    
+                                                                        <div >
+                                                                                <button id = "nut6" class = "col-md-12 bt " >Bài tập 2</button>
+                                                                                <div class = "nd">
+                                                                                <img src = "image_ngu_phap/r1.2.png"><br>
+                                                                               
+                                                                                <ol class = "kc_audio_da">
+                                                                                        <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                        <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                        <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                        <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                        
+                                                                                </ol>
+                                                                                </div></div>
+                                                                                <div >
+                                                                                        <button id = "nut7" class = "col-md-12 bt " >Bài tập 3</button>
+                                                                                        <div class = "nd">
+                                                                                        <img src = "image_ngu_phap/r1.3.png"><br>
+                                                                                       
+                                                                                        <ol class = "kc_audio_da">
+                                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                
+                                                                                        </ol>
+                                                                                        </div></div>
+                    
+                                                                                        <div >
+                                                                                            <button id = "nut8" class = "col-md-12 bt " >Bài tập 4</button>
+                                                                                            <div class = "nd">
+                                                                                            <img src = "image_ngu_phap/r1.4.png"><br>
+                                                                                           
+                                                                                            <ol class = "kc_audio_da">
+                                                                                                    <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                    <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                    <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                    <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                    
+                                                                                            </ol>
+                                                                                            </div></div>
+                    
+                                                                                            <div >
+                                                                                                <button id = "nut9" class = "col-md-12 bt " >Bài tập 5</button>
+                                                                                                <div class = "nd">
+                                                                                                <img src = "image_ngu_phap/r1.5.png"><br>
+                                                                                               
+                                                                                                <ol class = "kc_audio_da">
+                                                                                                        <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                        <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                        <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                        <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                        
+                                                                                                </ol>
+                                                                                                </div></div>
+                    
+                                                                                                <div >
+                                                                                                    <button id = "nut10" class = "col-md-12 bt " >Bài tập 6</button>
+                                                                                                    <div class = "nd">
+                                                                                                    <img src = "image_ngu_phap/r1.6.png"><br>
+                                                                                                   
+                                                                                                    <ol class = "kc_audio_da">
+                                                                                                            <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                            <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                            <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                            <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                            
+                                                                                                    </ol>
+                                                                                                    </div></div>
+                    
+                                                                                                    <div >
+                                                                                                        <button id = "nut11" class = "col-md-12 bt " >Bài tập 7</button>
+                                                                                                        <div class = "nd">
+                                                                                                        <img src = "image_ngu_phap/r1.7.png"><br>
+                                                                                                       
+                                                                                                        <ol class = "kc_audio_da">
+                                                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                                
+                                                                                                        </ol>
+                                                                                                        </div></div>
+                    
+                                                                                                        <div >
+                                                                                                            <button id = "nut12" class = "col-md-12 bt " >Bài tập 8</button>
+                                                                                                            <div class = "nd">
+                                                                                                            <img src = "image_ngu_phap/r1.8.png"><br>
+                                                                                                           
+                                                                                                            <ol class = "kc_audio_da">
+                                                                                                                    <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                                    <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                                    <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                                    <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                                                    
+                                                                                                                    
+                                                                                                            </ol>
+                                                                                                            </div></div>      
+
+                                          </div>
+                                        </div>
+                        </div>
+
+                       
+                    
+                      
+                        <div class="tab-pane" id = "mau_cau01">
+                                       
+                         <div class = "tab-pane tab-content fade in active">
+
+                                        <ul class="nav nav-tabs">
+                                                        <li><a data-toggle="tab" href="#bunkei">Bunkei </a></li>
+                                                        <li><a data-toggle="tab" href="#reibun">Reibun</a></li>
+                                        </ul>
+                                        <div id="bunkei" class="tab-pane fade in active" >
+                                                        <audio style = "margin-top: 20px;" controls>
+                                                          
+                                                            <source src="1 - 2 - Bunkei.mp3" >
+                                                          Your browser does not support the audio element.
+                                                          </audio><br><br>
+                                                          <img src = "bunkei+reibun/bunkei1.png">
+                                                          <img src = "bunkei+reibun/reibun1.png">
+                                                          </div>
+                                                    
+                                                          <div id="reibun" class="tab-pane fade">
+                                                                <audio controls>
+                                                                       
+                                                                        <source src="1 - 2 - Bunkei.mp3" type="audio/mpeg">
+                                                                      Your browser does not support the audio element.
+                                                                      </audio><br><br>
+                                                                      <img src = "bunkei+reibun/renshyuA1.png">
+                                                    
+                                                          </div>  
+                                                          </div>         
+                        </div>
+                        <div class="tab-pane" id = "hoi_thoai">
+                                        <ul class="nav nav-tabs">
+                                                        <li><a data-toggle="tab" href="#Kaiwa">Kaiwa </a></li>
+                                                        <li><a data-toggle="tab" href="#renshyuC">renshyuC</a></li>
+                                                </ul>
+                         <div class = "tab-pane tab-content fade in active">
+
+                                        <div id="Kaiwa"  class="tab-pane fade in active" >
+                                                        <div class = "col-md-12" style="text-align:left;">
+                                                                <audio controls>
+                                                          
+                                                            <source src="1 - 2 - Bunkei.mp3" >
+                                                          Your browser does not support the audio element.
+                                                          </audio><br><br></div>
+                                                          <img src = "kaiwa/kaiwa01.png">
+                                                          <img  src = "kaiwa/kaiwa01_anh.png">
+                                                          </div>
+                                                    
+                                                          <div id="renshyuC" class="tab-pane fade">
+                                                                <audio controls>
+                                                                       
+                                                                        <source src="1 - 2 - Bunkei.mp3" type="audio/mpeg">
+                                                                      Your browser does not support the audio element.
+                                                                      </audio><br><br>
+                                                                      <img src = "kaiwa/renshyuC_01-1.png">
+                                                                      <img src = "kaiwa/renshyuC_01-2.png">
+                                                                      <img src = "kaiwa/renshyuC_01-3.png">
+                                                    
+                                                          </div>
+                                </div>
+                        </div>
+                        <div class="tab-pane" id = "mondai01">
+                                       
+                                        <ul class="nav nav-tabs">
+                                                        <li><a data-toggle="tab" href="#listen">Nghe </a></li>
+                                                        <li><a data-toggle="tab" href="#write">Viết</a></li>
+                                                </ul>
+                         <div class = "tab-pane tab-content fade in active">
+                        <div id="listen" class="tab-pane fade in active">
+                                <div >
+                                        <button class = "col-md-12 bt " >Bài tập 1:Nghe và trả lời câu hỏi</button>
+                                        <div class = "nd">
+                                        <img src = "md_anh/md-1-1.png"><br>
+                                        <audio style = "border: solid; border-radius: 25px;" controls>
+                                       
+                                        <source src="md_nghe/1 - 8 - Mondai 1.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                        </audio>
+                                        <ol class = "kc_audio_da">
+                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                        </ol>
+                                        </div></div>
+
+                                         <div style = "width: 100%;"><button class = " col-md-12 bt " >Bài tập 2:Nghe và trả lời câu hỏi</button>
+                                        <div class="nd">
+                                        <img src = "md_anh/md-1-2.png"><br>
+                                        <audio controls>
+                                       
+                                                <source src="md_nghe/1 - 9 - Mondai 2.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                        </audio>
+                                        <ol class = "kc_audio_da">
+                                                <li><a class= "cau">Đáp án</a><p  class = "da">あなたはサントスさんですか</p></li>
+                                                <li><a class= "cau">Đáp án</a><p  class = "da">あなたはサントスさんですか</p></li>
+                                        </ol>  
+                                        </div></div> 
+
+                                        <div><button class = " bt " ><div class = "de_bai">Bài tập 3:Nghe và trả lời câu hỏi</div></button>
+                                        <div class="nd">
+                                        <img src = "md_anh/md-1-3.png"><br>
+                                        <audio controls>
+                                       
+                                                <source src="md_nghe/1 - 10 - Mondai 3.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio element.
+                                        </audio>
+                                        <ol class = "kc_audio_da">
+                                                <li><a class= "cau">Đáp án</a><p  class = "da">あなたはサントスさんですか</p></li>
+                                                <li><a class= "cau">Đáp án</a><p  class = "da">あなたはサントスさんですか</p></li>
+                                                <li><a class= "cau">Đáp án</a><p  class = "da">あなたはサントスさんですか</p></li>
+                                        </ol>
+                                        </div></div>
+
+                        </div>
+                                        <div id="write" class="tab-pane fade">
+                                                <div >
+                                                        <button class = "col-md-12 bt " >Bài tập 4</button>
+                                                        <div class = "nd">
+                                                        <img src = "md_anh/md-1-4.png"><br>
+                                                       
+                                                        <ol class = "kc_audio_da">
+                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                        </ol>
+                                                        </div></div>
+
+                                                        <div >
+                                                                <button class = "col-md-12 bt " >Bài tập 5</button>
+                                                                <div class = "nd">
+                                                                <img src = "md_anh/md-1-5.png"><br>
+                                                               
+                                                                <ol class = "kc_audio_da">
+                                                                        <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                        <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                        <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                        <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                        
+                                                                </ol>
+                                                                </div></div>
+                                                                <div >
+                                                                        <button class = "col-md-12 bt " >Bài tập 6</button>
+                                                                        <div class = "nd">
+                                                                        <img src = "md_anh/md-1-6.png"><br>
+                                                                       
+                                                                        <ol class = "kc_audio_da">
+                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                <li><a class= "cau">Đáp án</a><p class = "da">あなたはサントスさんですか</p></li>
+                                                                                
+                                                                        </ol>
+                                                                        </div></div>
+                
+                                                         
+                                        </div>
+                                        </div>
+                
+
+                        </div>
+                        <div class="tab-pane" id = "kanji">
+
+                        </div>
+                    
+                      
+
+                        </div>
+
+                        
+                        </div>
+                        
+                        
+        </div>
+        </div>
+</div>
+
+</body>
