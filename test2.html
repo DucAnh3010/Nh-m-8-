@@ -1,0 +1,71 @@
+<head>
+        <link rel="stylesheet" href="mondai.css">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="mondai.js"></script>
+<script>
+$(document).ready(function(){
+    var x = [
+        {ten: "s1", tu_vung:[],ngu_phap:{button:["4","5"],para:["dsd","d"]}},
+        {ten:"s2",tu_vung:[],ngu_phap:["1. これ / それ / あれ　は　N　です","5","6"]},
+        {ten:"s3" ,tu_vung:[],ngu_phap:["4","5","6"]}
+        ];
+    var y = '<br>'
+    var count = 0;
+    var dem = 0;
+    $("button").click(function(){
+    for(var i = 0;i<x[0].ngu_phap.button.length;i++){
+        $("#bt"+count).append(x[0].ngu_phap.button[i]);
+       
+        count++
+        }
+        for(var i = 0;i<x[0].ngu_phap.para.length;i++){
+         $("#p"+dem).append(x[0].ngu_phap.para[i]);
+         dem++
+         }
+    });
+      
+     
+        
+       
+
+  
+
+//     $(y).click(function(){
+       
+        
+
+// });
+});
+
+</script>
+</head>
+
+<div>
+    <table>
+        <button id="b1" class="my-btn">clgt</button>
+        <button id="b2" class="my-btn">clt</button>
+        <button id="b3" class="my-btn">lgt</button>
+        <tr>
+            <td id = "00">a</td>
+            <td id = "01">b</td>
+            <td id = "02">c</td>
+        </tr>
+        <tr>
+                <td id = "10">d</td>
+            <td id = "11">e</td>
+            <td id = "12">f</td>
+            </tr>
+            <tr>
+                    <td id = "31">H</td>
+            <td id = "32">I</td>
+            <td id = "33">K</td>
+                </tr>
+    </table>
+</div>
